@@ -1,0 +1,8 @@
+# devenv configuration file
+# See https://devenv.sh/reference/yaml-options/ for more options
+allowUnfree: true
+inputs:
+  nixpkgs:
+    url: github:NixOS/nixpkgs/nixos-23.11
+  nixpkgs-unstable:
+    url: github:NixOS/nixpkgs/nixos-unstable

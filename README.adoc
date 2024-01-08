@@ -1,0 +1,57 @@
+== Blank Project [template]
+
+*_This repository contains a base, stack agnostic, template to kickstart new projects_*
+
+-> Purpose and rational behind the repository
+
+https://codespaces.new/dro-id/blank-template?quickstart=1[image:https://github.com/codespaces/badge.svg[Open in GitHub Codespaces, align=center]]
+
+=== Features
+
+* 🚀 Feature 1
+* 🚀 Feature 2
+
+🔜 TODO
+
+* [ ] Do that
+* [ ] Do that
+
+=== Installation
+
+. Step 1
+[source,bash]
+----
+  code here
+----
+
+. Step 2
+[source,bash]
+----
+  code here
+----
+
+=== Guidelines // Get Started
+
+. Check 1
+. Check 2
+
+=== Contributing
+
+Feel free to suggest improvments to the template! 
+
+=== Acknowledgements
+
+Big thanks to all those great projects and their maintainers.
+
+* https://devenv.sh/[devenv] - Defining development environments as-code
+* https://starship.rs/[starship] - Awesome cross-shell prompt
+* https://containers.dev[devcontainer] - Standardizng development environment as-code
+* https://github.com/features/codespaces[GitHub Codespace] - Development environments in the octosphere
+
+=== License
+
+⚖️ link:./LICENSE[MIT]
+
+=== Authors
+
+👨🏻‍💻 https://github.com/marc-0x01[@marc-0x01]
