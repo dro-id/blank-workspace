@@ -46,6 +46,7 @@ env.bak/
 venv.bak/
 .devenv/
 .devenv.flake.nix
+.direnv/
 
 ## Linux
 
@@ -91,7 +92,7 @@ Temporary Items
 
 # Visual Studio Code Configuration
 # we do not commit any configurrartion as it is managed by devcontainers
-.vscode
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
