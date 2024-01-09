@@ -1,0 +1,3 @@
+[git_branch]
+symbol = '🌱 '
+ignore_branches = ['master', 'main']
