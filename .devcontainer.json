@@ -46,6 +46,13 @@
           "preferredHighContrastColorTheme": "GitHub Dark High Contrast",
           "preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
           "preferredLightColorTheme": "GitHub Light Default"
+        },
+        "terminal": {
+          "integrated": {
+            "defaultProfile": {
+              "linux": "zsh"
+            }
+          }
         }
       }
     }
