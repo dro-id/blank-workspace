@@ -31,6 +31,13 @@
             "autohide": true
           }
         },
+        "terminal": {
+          "integrated": {
+            "defaultProfile": {
+              "linux": "zsh"
+            }
+          }
+        },
         "update": {
           "showReleaseNotes": false
         },
@@ -46,17 +53,13 @@
           "preferredHighContrastColorTheme": "GitHub Dark High Contrast",
           "preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
           "preferredLightColorTheme": "GitHub Light Default"
-        },
-        "terminal": {
-          "integrated": {
-            "defaultProfile": {
-              "linux": "zsh"
-            }
-          }
         }
       }
     }
   },
+  "forwardPorts": [
+    8501
+  ],
   "hostRequirements": {
     "cpus": 2,
     "memory": "8gb",
@@ -64,6 +67,12 @@
   },
   "image": "ghcr.io/cachix/devenv:latest",
   "overrideCommand": false,
+  "portsAttributes": {
+    "8501": {
+      "label": "Default",
+      "onAutoForward": "openPreview"
+    }
+  },
   "secrets": {},
   "updateContentCommand": "devenv ci"
 }

@@ -18,6 +18,7 @@
             workbench.preferredLightColorTheme = "GitHub Light Default";
             workbench.preferredHighContrastColorTheme = "GitHub Dark High Contrast";
             workbench.preferredHighContrastLightColorTheme = "GitHub Light High Contrast";
+            terminal.integrated.defaultProfile.linux = "zsh";
             editor.formatOnSave = true;
             editor.formatOnPaste = true;
             editor.minimap.autohide = true;
@@ -45,6 +46,17 @@
             # Open README at launch
             "README.adoc"
           ];
+        };
+      };
+      # Default port forwarding for applications
+      # Remove if not used
+      forwardPorts = [
+        8501
+      ];
+      portsAttributes = {
+        "8501" = {
+          label = "Default";
+          onAutoForward = "openPreview";
         };
       };
       # Capacity requested for devcontainer
