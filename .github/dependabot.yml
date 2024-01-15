@@ -1,0 +1,66 @@
+# Dependabot provides automated dependency updates. 
+# This file describes the dependencies eccosystems to update.
+
+version: 2
+updates:
+
+  ## Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "main"
+    labels: "github-acitons-dependencies"
+    open-pull-requests-limit: 5 
+    schedule:
+      interval: "monthly" # First day of month
+
+
+  # Stacks registries
+  # Much more options are available:  
+  # - private registries
+  # - allow/ignore dependencies
+  # - commit messages, reviewers, ...
+
+  ## Maintain dependencies for docker images
+  - package-ecosystem: "docker"
+    directory: "/"
+    target-branch: "main"
+    labels: "docker-dependencies"
+    open-pull-requests-limit: 0 
+    schedule:
+      interval: "monthly"
+
+  ## Maintain dependencies for python stack
+  - package-ecosystem: "pip" # also for poetry, pipenv
+    directory: "/"
+    target-branch: "main"
+    labels: "python-dependencies"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "monthly"
+
+  ## Maintain dependencies for javascript stack
+  - package-ecosystem: "npm" # also for pnpm, yarn
+    directory: "/"
+    target-branch: "main"
+    labels: "javascript-dependencies"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "monthly"
+
+  ## Maintain dependencies for rust stack
+  - package-ecosystem: "cargo"
+    directory: "/"
+    target-branch: "main"
+    labels: "rust-dependencies"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "monthly"
+
+  ## Maintain dependencies for terraform stack
+  - package-ecosystem: "terraform" 
+    directory: "/"
+    target-branch: "main"
+    labels: "terraform-dependencies"
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "monthly"
