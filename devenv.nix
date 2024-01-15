@@ -73,6 +73,9 @@
         # };
         # NAME_OF_SECRET_2 = { };
       };
+      # Explicitely set the non-root user
+      # see: https://aka.ms/vscode-remote/containers/non-root
+      remoteUser = "vscode";
     };
   };
 

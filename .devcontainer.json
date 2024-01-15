@@ -74,5 +74,6 @@
     }
   },
   "secrets": {},
+  "remoteUser": "vscode",
   "updateContentCommand": "devenv ci"
 }
