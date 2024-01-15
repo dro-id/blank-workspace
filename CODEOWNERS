@@ -1,0 +1,22 @@
+# CODEOWNERS
+# This file defines individuals or teams that are responsible 
+# for code in a repository, and drives pull-requests.
+# Each line is a file pattern followed by one or more owners.
+# see https://help.github.com/articles/about-codeowners/
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence.
+*               @root-0x01 @marc-0x01
+
+# Then specify below owners for part of the code base.
+# Order is important; the last matching pattern takes the most
+# precedence. You can specify teams or emails.
+# *.js          @js-owner
+# *.go          docs@example.com
+# *.txt         @octo-org/octocats
+# /build/logs/  @doctocat
+# docs/*        docs@example.com
+# apps/         @octocat
+# /docs/        @doctocat
+# /scripts/     @doctocat @octocat
+# **/logs       @octocat
