@@ -24,7 +24,7 @@ https://github.com/dro-id/blank-template/graphs/contributors[image:https://img.s
 ░░░░▀░░▀░▀░░▀░░▀▀▀░░░░░░▀░░▀▀▀░▀░▀░▀░░░▀▀▀░▀░▀░░▀░░▀▀▀░░░░</pre>
 	<h1>Blank Project [template]</h1>
 	<p style="text-align: center"  align="center">
-		<i>A blank repository template to kickstart a new awesome project!</i>
+		<i><b>A blank repository template to kickstart a new awesome project!</b></i>
 		<br><br>
     <a href="https://codespaces.new/dro-id/blank-template?quickstart=1"><img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"></a>
 		<br>
