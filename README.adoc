@@ -18,9 +18,10 @@ https://github.com/dro-id/blank-template/graphs/contributors[image:https://img.s
 
 ++++
 <div style="text-align: center"  align="center">
-	<a href="https://github.com/dro-id/blank-template">
-	    <img src="https://i.imgur.com/XZhTk1hl.png" alt="Logo" width="440" height="220">
-	</a>
+	<pre>
+░░░▄▀▄░█░█░▄▀▄░▀█░░░░░░▀█▀░█▀▀░█▄█░█▀█░█░░░█▀█░▀█▀░█▀▀░░░░
+░░░█/█░▄▀▄░█/█░░█░░▄▄▄░░█░░█▀▀░█░█░█▀▀░█░░░█▀█░░█░░█▀▀░░░░
+░░░░▀░░▀░▀░░▀░░▀▀▀░░░░░░▀░░▀▀▀░▀░▀░▀░░░▀▀▀░▀░▀░░▀░░▀▀▀░░░░</pre>
 	<h1>Blank Project [template]</h1>
 	<p style="text-align: center"  align="center">
 		<i>A blank repository template to kickstart a new awesome project!</i>
