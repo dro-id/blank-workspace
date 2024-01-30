@@ -1,0 +1,28 @@
+= Changelog
+
+[TIP]
+====
+This file describes for each release the changes, such as version changes, feature additions, and bug fixes.
+====
+
+== 🚀 Major Version 1 - Codename
+
+=== https://github.com/dro-id/blank-template/compare/v0.0.1...v0.0.2[0.0.2] (2024-01-01)
+
+==== 🍾 Features
+
+* https://github.com/dro-id/blank-template/commit/2daff2347868ae2f711236515f8d6ef9ab70a811[`2daff23`] https://github.com/dro-id/blank-template/pull/334[#334] enable user to do that awesome action (#334) (@marc-0x01)
+* https://github.com/dro-id/blank-template/commit/3d76fc48ca2c73265737c3408cf7ccab75879cd8[`3d76fc4`] https://github.com/dro-id/blank-template/pull/380[#380] add that shiny, long awited feature (#380) (@marc-0x01)
+
+==== 🐛 Bug Fixes
+
+* https://github.com/dro-id/blank-template/commit/acd64294a39d7c53ca3c9142fbbf12419974d0cc[`acd6429`] https://github.com/dro-id/blank-template/pull/398[#398] dont allow that nasty bug eating our food (#398) (@marc-0x01)
+
+==== 📗 Documentation
+
+* https://github.com/dro-id/blank-template/commit/2a8d79ef33c939af4ee909dd7c851ce96db16d93[`2a8d79e`] https://github.com/dro-id/blank-template/pull/372[#372] Add section on XXX (#372) (@marc-0x01)
+
+==== 📍 Dependencies
+
+* https://github.com/dro-id/blank-template/commit/ec65582767348658bb8a6f9040099ff704c03d1d[`ec65582`] https://github.com/dro-id/blank-template/pull/375[#375] bump @blabla/dep1 from X.Y.Z to X.Y.Z
+* https://github.com/dro-id/blank-template/commit/c8420a6755609eba54886e6af5a123c57f2002eb[`c8420a6`] https://github.com/dro-id/blank-template/pull/374[#374] bump @blabla/dep2 from X.Y.Z to X.Y.Z
