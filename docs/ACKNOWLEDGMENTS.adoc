@@ -1,0 +1,31 @@
+= Acknowledgments
+
+[TIP]
+====
+This file explains relevant related work, such as other projects that are dependencies, 
+or libraries, or modules, or have their own copyrights or licenses that you want to 
+include in your project. Alternatively you can add a section in the end of your README.
+
+It is also advised to automate https://resources.github.com/learn/pathways/security/advanced/understanding-software-supply-chain/[updating 
+the dependency graph and SBOM generation].
+====
+
+== Main Dependencies
+
+To get an extensive view of the project dependencies, go to `Insights -> Dependency graph`
+
+=== Framework A
+https://www.github.com[Framework A]
+
+=== Key library X
+https://www.github.com[Library X]
+
+== Tools and Services
+
+=== GitHub
+I can't thank https://github.com/[GitHub] enough for being an open platform for developers.
+The source code, ci/cd, dev environments and the websites all have their home here.
+
+=== Visual Studio Code
+https://code.visualstudio.com[Visual Studio Code] is an open-source text editor
+used to build the website and write the documentation.

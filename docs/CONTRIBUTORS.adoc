@@ -1,0 +1,11 @@
+= Contributors
+
+[TIP]
+====
+This file explains who has contributed to the project. When we use a CONTRIBUTORS file in our projects, we ask people how they want to be listed, such as by their name, handle, email address, website link, etc. Production of this file can be automated with github Actions.
+====
+
+Shout out to our top contributors!
+
+- https://api.github.com/users/marc-0x01[marc-0x01]
+- ...

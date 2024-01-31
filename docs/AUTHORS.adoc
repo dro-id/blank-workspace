@@ -1,0 +1,11 @@
+= Authors
+
+[TIP]
+====
+This file lists people who are significant authors of the project, such as the people who are legally related to the work. The GNU project states "Only the contributions that are legally significant for copyright purposes (search for Legally Significant) need to be listed. Small contributions, bug reports, ideas, etc., can be omitted." Production of this file can be automated with github Actions.
+====
+
+A big thans you to our authors!
+
+- [marc-0x01](https://api.github.com/users/marc-0x01)
+- ...
