@@ -21,19 +21,19 @@ jobs:
     - name: Install devenv.sh
       run: nix profile install tarball+https://install.devenv.sh/latest
 
-    - name: Prepare the devenv shell and run any pre-commit hooks
+    - name: Prepare the devenv shell
       run: devenv ci
 
-    - name: (devenv) Initialize the environment
+    - name: (devenv) Setup the dependencies
       run: devenv shell setup
 
-    - name: (devenv) Initialize the environment
+    - name: (devenv) Initialize the project
       run: devenv shell init
 
     - name: (devenv) Run the tests
       run: devenv shell test
 
-    - name: (devenv) Build the application
+    - name: (devenv) Build the project
       run: devenv shell build
   
     

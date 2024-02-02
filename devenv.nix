@@ -139,7 +139,7 @@
   scripts = {
     # Install global addons
     setup.exec = ''
-      echo "Installing build/dev dependencies..."
+      echo "Setuping dependencies..."
     '';
     # Workflow shortcuts
     init.exec = ''
