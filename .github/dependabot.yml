@@ -1,5 +1,4 @@
-# Dependabot provides automated dependency updates. 
-# This file describes the dependencies eccosystems to update.
+# This file defines Dependabot automated dependency updates 
 
 version: 2
 updates:

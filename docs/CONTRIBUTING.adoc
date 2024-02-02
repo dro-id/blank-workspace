@@ -42,9 +42,9 @@ Please, use a reaction in place of a ``+1'' comment, we believe it’s
 easy: 👍 for upvoting and 👎 for downvoting.
 
 If you cannot find an existing issue that describes your bug or feature,
-https://github.com/droà-id/blank-template/issues/new?assignees=&labels=&template=feature.md[create
+https://github.com/droà-id/blank-template/issues/new?assignees=&labels=&template=feature_request.md[create
 a new feature request] or 
-https://github.com/droà-id/blank-template/issues/new?assignees=&labels=&template=bug.md[create
+https://github.com/droà-id/blank-template/issues/new?assignees=&labels=&template=bug_report.md[create
 a new bug report]. The template will guide you on the issue reporting.
 
 ==== Writing Good Bug Reports and Feature Requests

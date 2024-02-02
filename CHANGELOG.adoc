@@ -36,6 +36,9 @@ Add section on XXX (#372) (@marc-0x01)
 * https://github.com/dro-id/blank-template/commit/ec65582767348658bb8a6f9040099ff704c03d1d[`ec65582`] 
 https://github.com/dro-id/blank-template/pull/375[#375] 
 Bump @blabla/dep1 from X.Y.Z to X.Y.Z
+
+==== Other Changes
+
 * https://github.com/dro-id/blank-template/commit/c8420a6755609eba54886e6af5a123c57f2002eb[`c8420a6`] 
 https://github.com/dro-id/blank-template/pull/374[#374] 
 Bump @blabla/dep2 from X.Y.Z to X.Y.Z

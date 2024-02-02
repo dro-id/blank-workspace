@@ -37,9 +37,12 @@ https://github.com/dro-id/blank-template/graphs/contributors[image:https://img.s
 [TIP]
 ====
 This repository contains a base, stack agnostic, template to kickstart new projects.
-- Set of *repository special files* in the / root and docs directory to materialize project governance
 - *Codespace ready* with a .devcontainer and the actual environment defined with devenv
 - Base *GitHub Actions workflow* ready to be adapted for a target stack
+- Simple Issue and Pull Request template in markdown
+- (Optional) Set of *repository special files* in the / root and docs directory to materialize project governance.
+
+Just adapt / remove the things you do not need! 
 ====
 
 === About
