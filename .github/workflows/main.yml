@@ -1,12 +1,14 @@
 # This a sample actions compatible with devenv
 
-name: "Main Development Workflow"
+name: "Main Workflow"
 
 on:
+  workflow_call:
   workflow_dispatch:
 
 jobs:
   build:
+    name: Build Pipeline
     runs-on: ubuntu-latest
 
     steps:
@@ -19,9 +21,20 @@ jobs:
     - name: Install devenv.sh
       run: nix profile install tarball+https://install.devenv.sh/latest
 
-    - name: Build the devenv shell and run any pre-commit hooks
+    - name: Prepare the devenv shell and run any pre-commit hooks
       run: devenv ci
-  
-    - name: Run a single command in the devenv shell
+
+    - name: (devenv) Initialize the environment
+      run: devenv shell setup
+
+    - name: (devenv) Initialize the environment
+      run: devenv shell init
+
+    - name: (devenv) Run the tests
+      run: devenv shell test
+
+    - name: (devenv) Build the application
       run: devenv shell build
+  
+    
 

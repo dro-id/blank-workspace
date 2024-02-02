@@ -139,17 +139,23 @@
   scripts = {
     # Install global addons
     setup.exec = ''
+      echo "Installing build/dev dependencies..."
     '';
     # Workflow shortcuts
     init.exec = ''
+      echo "Initializing the project..."
     '';
     run.exec = ''
+      echo "Running the project..."
     '';
     build.exec = ''
+      echo "Building the project..."
     '';
     test.exec = ''
+      echo "Running the tests..."
     '';
     clean.exec = ''
+      echo "Cleaning the project..."
     ''; 
   };
 
