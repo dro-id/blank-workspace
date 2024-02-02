@@ -1,4 +1,4 @@
- ---
+---
 name: 🚀 Feature Request
 about: If you have a request, idea, proposition!
 ---
