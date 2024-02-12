@@ -12,7 +12,32 @@
 :warning-caption: :warning:
 
 // Standard shields and technology skills
-https://github.com/dro-id/blank-template/graphs/contributors[image:https://img.shields.io/github/contributors/dro-id/blank-template.png?style=for-the-badge[https://img.shields.io/github/contributors/dro-id/blank-template]] https://github.com/dro-id/blank-template/network/members[image:https://img.shields.io/github/forks/dro-id/blank-template.svg?style=for-the-badge[https://img.shields.io/github/forks/dro-id/blank-template]] https://github.com/dro-id/blank-template/stargazers[image:https://img.shields.io/github/stars/dro-id/blank-template.svg?style=for-the-badge[https://img.shields.io/github/stars/dro-id/blank-template]] https://github.com/dro-id/blank-template/issues[image:https://img.shields.io/github/issues/dro-id/blank-template.svg?style=for-the-badge[https://img.shields.io/github/issues/dro-id/blank-template]] https://github.com/dro-id/blank-template/blob/master/LICENSE.txt[image:https://img.shields.io/github/license/dro-id/blank-template.svg?style=for-the-badge[https://img.shields.io/github/license/dro-id/blank-template]] http://www.rust-lang.org[image:https://img.shields.io/badge/-Rust-orange.svg?style=for-the-badge&logo=rust[https://img.shields.io/badge/-Rust-orange]]
+
+++++
+<div style="text-align: center"  align="center">
+  <!-- Repository statistics-->
+  <a href="https://github.com/dro-id/blank-template/graphs/contributors">
+  	<img src="https://img.shields.io/github/contributors/dro-id/blank-template.png?style=for-the-badge" alt="https://img.shields.io/github/contributors/dro-id/blank-template">
+  </a>
+  <a href="https://github.com/dro-id/blank-template/network/members">
+  	<img src="https://img.shields.io/github/forks/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/forks/dro-id/blank-template">
+  </a>
+  <a href="https://github.com/dro-id/blank-template/stargazers">
+  	<img src="https://img.shields.io/github/stars/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/stars/dro-id/blank-template">
+  </a>
+  <a href="https://github.com/dro-id/blank-template/issues">
+  	<img src="https://img.shields.io/github/issues/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/issues/dro-id/blank-template">
+  </a>
+  <a href="https://github.com/dro-id/blank-template/blob/master/LICENSE.txt">
+  	<img src="https://img.shields.io/github/license/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/license/dro-id/blank-template">
+  </a>
+  <!-- Main Technologies -->
+  <a href="https://en.wikipedia.org/wiki/Technology">
+  	<img src="https://img.shields.io/badge/-Technology-grey.svg?style=for-the-badge&logo=semantic-release" alt="https://img.shields.io/badge/-Technology-grey">
+  </a>
+</div>
+<br>
+++++
 
 // Header
 
@@ -37,12 +62,13 @@ https://github.com/dro-id/blank-template/graphs/contributors[image:https://img.s
 [TIP]
 ====
 This repository contains a base, stack agnostic, template to kickstart new projects.
-- *Codespace ready* with a .devcontainer and the actual environment defined with devenv
+- *Codespace ready* with a .devcontainer and the actual environment defined with `devenv`
 - Base *GitHub Actions workflow* ready to be adapted for a target stack
 - Simple Issue and Pull Request template in markdown
+- EditorConfig base configuration to standardise some editor settings across devs
 - (Optional) Set of *repository special files* in the / root and docs directory to materialize project governance.
 
-Just adapt / remove the things you do not need! 
+__ -> Just adapt / remove the things you do not need!__ 
 ====
 
 === About
@@ -80,9 +106,21 @@ Purpose and rational behind the repository
 
 === Contributing
 
+[TIP]
+====
+* Reference link:./docs/CONTRIBUTING.adoc[CONTRIBUTING] to unclutter the README if you have a bigger community.
+* Reference link:./docs/GOVERNANCE.adoc[GOVERNANCE] to unclutter the README if you have a bigger community.
+* Reference link:./docs/CODE_OF_CONDUCT.adoc[CODE_OF_CONDUCT] to unclutter the README if you have community.
+====
+
 Feel free to suggest improvements to the template! 
 
 === Acknowledgements
+
+[TIP]
+====
+* Reference link:./docs/ACKNOWLEDGMENTS.adoc[ACKNOWLEDGMENTS] to a have a full list of dependencies.
+====
 
 Big thanks to all those great projects and their maintainers.
 
@@ -96,5 +134,11 @@ Big thanks to all those great projects and their maintainers.
 ⚖️ link:./LICENSE[MIT]
 
 === Authors
+
+[TIP]
+====
+* Reference link:./docs/AUTHORS.adoc[AUTHORS] to unclutter the README if you have a bigger community.
+* Reference link:./docs/CONTRIBUTORS.adoc[CONTRIBUTORS] to unclutter the README if you have community.
+====
 
 👨🏻‍💻 https://github.com/marc-0x01[@marc-0x01]
