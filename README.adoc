@@ -1,5 +1,6 @@
 = README
 :doctype: article
+:fragment:
 :repository-url: https://github.com/dro-id/blank-template
 :!showtitle:
 :icons: font
