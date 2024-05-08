@@ -65,7 +65,7 @@
     "memory": "8gb",
     "storage": "32gb"
   },
-  "image": "ghcr.io/cachix/devenv:latest",
+  "image": "ghcr.io/cachix/devenv:v0.6.3",
   "overrideCommand": false,
   "portsAttributes": {
     "8501": {
@@ -75,5 +75,5 @@
   },
   "secrets": {},
   "remoteUser": "vscode",
-  "updateContentCommand": ""
+  "updateContentCommand": "devenv ci"
 }
