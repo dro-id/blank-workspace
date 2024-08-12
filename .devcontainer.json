@@ -65,7 +65,7 @@
     "memory": "8gb",
     "storage": "32gb"
   },
-  "image": "ghcr.io/cachix/devenv:v0.6.3",
+  "image": "ghcr.io/cachix/devenv:v1.0.8",
   "overrideCommand": false,
   "portsAttributes": {
     "8501": {
