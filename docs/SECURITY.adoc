@@ -1,4 +1,4 @@
-== Security Policy
+= Security Policy
 
 [TIP]
 ====
@@ -7,7 +7,7 @@ that are currently being maintained with security updates. This file also
 provides instructions on how users can submit a report of a vulnerability.
 ====
 
-=== Supported Versions
+== Supported Versions
 
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
@@ -21,7 +21,7 @@ currently being supported with security updates.
 |< 4.0   |❌ Not supported  | Version prior v4 are now deprecated.
 |===
 
-=== Reporting a Vulnerability
+== Reporting a Vulnerability
 
 We takes the security of our software products and services seriously, 
 including the open source code repositories managed through our GitHub 

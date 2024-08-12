@@ -1,4 +1,4 @@
-== Project Governance
+= Project Governance
 
 [TIP]
 ====
@@ -11,7 +11,7 @@ and opening useful issues. It is also usefull to describe how decisions are made
 The development and community management of the project will follow the
 governance rules described in this document.
 
-=== Project Maintainers
+== Project Maintainers
 
 Project maintainers have admin access to the GitHub repository. The team
 of project maintainer is the following:
@@ -20,7 +20,7 @@ of project maintainer is the following:
 * https://github.com/USER2/[Maintainer 2]
 * https://github.com/USER3/[Maintainer 3]
 
-=== 1. Roles
+== 1. Roles
 
 This project includes the following roles.
 
@@ -35,7 +35,7 @@ mechanism to propose such a change is a GitHub pull request. A
 collaborator proposing a pull request is considered a *contributor*.
 Please refer to link:CONTRIBUTING.adoc[contributing] for more guidelines.
 
-=== 2. Issue governance
+== 2. Issue governance
 
 2.1. Both collaborators and project maintainers may propose issues. The
 participation in the issue discussion is open and must follow the
@@ -50,7 +50,7 @@ contributor.
 2.4. The group of project maintainers commit to give an answer to any
 issue in a period of time of 48 hours.
 
-=== 3. Pull Request governance
+== 3. Pull Request governance
 
 3.1. Both collaborators and project maintainers may propose pull
 requests. When a collaborator proposes a pull request, is considered

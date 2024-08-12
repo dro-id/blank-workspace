@@ -1,4 +1,4 @@
-== Contributing to this repository
+= Contributing to this repository
 
 [TIP]
 ====
@@ -13,7 +13,7 @@ There are several ways in which you can contribute, beyond writing code.
 The goal of this document is to provide a high-level overview of how you
 can get involved and how your contribution will be considered.
 
-=== Asking Questions
+== Asking Questions
 
 Do you have a question? Feel free to
 https://github.com/dro-id/blank-template/issues/new?assignees=&labels=question&template=question.md[open
@@ -23,12 +23,12 @@ Project maintainers will be eager to listen from you and help you out.
 Please, try to compose a clear and concise question. The more
 information you provide, the better we will be able to help you.
 
-=== Reporting Issues
+== Reporting Issues
 
 Do you have identified a reproducible problem,or bug in our code? or have a
 feature request? We want to hear about it! Please follow the next steps:
 
-==== Look For an Existing Issue
+=== Look For an Existing Issue
 
 Sometimes the issue you want to report is being already addressed, or is
 planned to be addressed soon. Before you create a new issue, please do a
@@ -47,7 +47,7 @@ a new feature request] or
 https://github.com/droà-id/blank-template/issues/new?assignees=&labels=&template=bug_report.md[create
 a new bug report]. The template will guide you on the issue reporting.
 
-==== Writing Good Bug Reports and Feature Requests
+=== Writing Good Bug Reports and Feature Requests
 
 Whenever possible, we ask you to file a single issue per problem and
 feature request. Please do not enumerate multiple bugs or feature
@@ -57,20 +57,20 @@ As you can imagine, the more information you can provide, the more
 likely someone will be successful at reproducing the issue and finding a
 fix.
 
-==== Creating Pull Requests
+=== Creating Pull Requests
 
 If you feel brave enough to contribute directly code to the repository,
 you are more than welcome. Feel free to submit pull requests to this
 repository, which we will review according to the governance rules of
 the project.
 
-==== Governance
+=== Governance
 
 Any contribution you send to us will be addressed by the project
 maintainers following the governance rules described in the
 link:GOVERNANCE.md[project governance].
 
-== Thank You!
+= Thank You!
 
 Your contributions to open source, large or small, make great projects
 like this possible. Thank you for taking the time to contribute.
